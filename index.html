@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Que animal é esse?</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="images/animal.jpg">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+
+    <audio autoplay="autoplay" controls > 
+        <source src="sounds/floresta.mp3" type="audio/mpeg" />
+        Your browser does not support the audio tag.
+      </audio>
+
+</head>
+<body>
+
+    <h1>Que animal é esse?</h1>
+
+    <section class="teclado">
+        
+        <button class= "tecla tecla_cachorro" {onclick="changeImage()"}=>I</button>
+        <button class="tecla tecla_cavalo">II</button>
+        <button class="tecla tecla_galo">III</button>
+
+        <button class="tecla tecla_gato">IV</button>
+        <button class="tecla tecla_leao">V</button>
+        <button class="tecla tecla_macaco">VI</button>
+
+        <button class="tecla tecla_ovelha">VII</button>
+        <button class="tecla tecla_pantera">VIII</button>
+        <button class="tecla tecla_vaca">IX</button>
+    </section>
+
+    <audio src="sounds/cachorro.wav" id="som_tecla_cachorro"></audio>
+    <audio src="sounds/cavalo.wav" id="som_tecla_cavalo"></audio>
+    <audio src="sounds/galo.wav" id="som_tecla_galo"></audio>
+    <audio src="sounds/gato.wav" id="som_tecla_gato"></audio>
+    <audio src="sounds/leao.wav" id="som_tecla_leao"></audio>
+    <audio src="sounds/macaco.wav" id="som_tecla_macaco"></audio>
+    <audio src="sounds/ovelha.wav" id="som_tecla_ovelha"></audio>
+    <audio src="sounds/pantera.wav" id="som_tecla_pantera"></audio>
+    <audio src="sounds/vaca.wav" id="som_tecla_vaca"></audio>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
